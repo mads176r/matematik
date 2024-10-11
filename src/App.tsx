@@ -4,7 +4,7 @@ import './App.css';
 // Function to generate a random polynomial
 const generateRandomPolynomial = (): string => {
   const a = Math.floor(Math.random() * 10) + 1; // Random coefficient
-  const n = Math.floor(Math.random() * 5); // Random exponent
+  const n = Math.floor(Math.random() * 5) + 1; // Random exponent
   return `${a}x^${n}`;
 };
 
